@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4DE89F21AC781D00885C8B /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DE89E21AC781D00885C8B /* AddTaskViewController.swift */; };
+		FB4DE8A121AC796100885C8B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DE8A021AC796100885C8B /* Task.swift */; };
 		FB5D530521AC6C8900D276AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D530421AC6C8900D276AD /* AppDelegate.swift */; };
 		FB5D530721AC6C8900D276AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D530621AC6C8900D276AD /* ViewController.swift */; };
 		FB5D530A21AC6C8900D276AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5D530821AC6C8900D276AD /* Main.storyboard */; };
 		FB5D530C21AC6C8A00D276AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5D530B21AC6C8A00D276AD /* Assets.xcassets */; };
 		FB5D530F21AC6C8A00D276AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5D530D21AC6C8A00D276AD /* LaunchScreen.storyboard */; };
+		FB5D531721AC728000D276AD /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D531621AC728000D276AD /* TaskCell.swift */; };
+		FB89F22C21ADA7CC006E6F58 /* TaskLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89F22B21ADA7CC006E6F58 /* TaskLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB4DE89E21AC781D00885C8B /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		FB4DE8A021AC796100885C8B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		FB5D530121AC6C8900D276AD /* TaskManagerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D530421AC6C8900D276AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5D530621AC6C8900D276AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		FB5D530B21AC6C8A00D276AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5D530E21AC6C8A00D276AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB5D531021AC6C8A00D276AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5D531621AC728000D276AD /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		FB89F22B21ADA7CC006E6F58 /* TaskLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				FB5D530421AC6C8900D276AD /* AppDelegate.swift */,
 				FB5D530621AC6C8900D276AD /* ViewController.swift */,
 				FB5D530821AC6C8900D276AD /* Main.storyboard */,
+				FB4DE89E21AC781D00885C8B /* AddTaskViewController.swift */,
+				FB89F22B21ADA7CC006E6F58 /* TaskLibrary.swift */,
+				FB4DE8A021AC796100885C8B /* Task.swift */,
+				FB5D531621AC728000D276AD /* TaskCell.swift */,
 				FB5D530B21AC6C8A00D276AD /* Assets.xcassets */,
 				FB5D530D21AC6C8A00D276AD /* LaunchScreen.storyboard */,
 				FB5D531021AC6C8A00D276AD /* Info.plist */,
@@ -136,6 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5D530721AC6C8900D276AD /* ViewController.swift in Sources */,
+				FB4DE89F21AC781D00885C8B /* AddTaskViewController.swift in Sources */,
+				FB4DE8A121AC796100885C8B /* Task.swift in Sources */,
+				FB5D531721AC728000D276AD /* TaskCell.swift in Sources */,
+				FB89F22C21ADA7CC006E6F58 /* TaskLibrary.swift in Sources */,
 				FB5D530521AC6C8900D276AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
