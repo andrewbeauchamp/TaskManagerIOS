@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TableViewController.swift
 //  TaskManagerIOS
 //
 //  Created by Andrew Beauchamp on 11/26/18.
@@ -8,13 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBOutlet weak var tableView: UITableView!
+    let taskLibrary = TaskLibrary.sharedInstance
+    
+    extension ViewController: UITableViewDelegate
+    
+    
 }
 

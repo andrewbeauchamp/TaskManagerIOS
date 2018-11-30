@@ -30,7 +30,7 @@ class AddTaskViewController: UIViewController {
     func addTask () {
         guard
             let addedTitle = taskTitleTextField.text, !addedTitle.isEmpty,
-            let addedDesc = taskDescTextView.text, !addedTitle.isEmpty
+            let addedDesc = taskDescTextView.text, !addedTitle.isEmpty, taskDescTextView.text != "Enter a description"
             else {
                 let errorAlert = UIAlertController(title: "Error Detected", message: "Please fill all options", preferredStyle: UIAlertController.Style.alert)
                 let dismissAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default ) {UIAlertAction in}
